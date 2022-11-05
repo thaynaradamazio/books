@@ -1,0 +1,172 @@
+.books {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('https://wallpaperaccess.com/full/5460085.jpg');
+  background-size: cover;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  min-width: 600px;
+  border: 1px solid rgb(192, 186, 186, 0.2);
+  background-color: rgba(12, 12, 12, 0.632);
+}
+
+.img {
+  width: 100px;
+  height: 150px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 30px;
+  border: 1px solid rgb(192, 186, 186, 0.2);
+  box-shadow: rgba(187, 185, 186, 0.4) -5px 5px,
+    rgba(187, 185, 186, 0.3) -10px 10px, rgba(187, 185, 186, 0.2) -15px 15px,
+    rgba(187, 185, 186, 0.1) -20px 20px, rgba(187, 185, 186, 0.05) -25px 25px;
+
+}
+
+.ul {
+  border: #555 solid 1px;
+  border-radius: 12px;
+  margin: 7px;
+  padding: 10px 20px;
+  min-width: 250px;
+  max-width: 250px;
+  background-color: rgba(12, 12, 12, 0.739);
+}
+
+
+.li {
+  margin-top: 10px;
+  background-color: transparent;
+
+
+}
+
+.h4 {
+  height: 150px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px dashed #eeeeee77;
+  padding: 10px;
+}
+
+.title {
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: transparent;
+  margin-bottom: 10px;
+
+}
+
+
+.text {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  background-color: transparent;
+
+}
+
+.author {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100px;
+  background-color: transparent;
+}
+
+.nav ul {
+  background: transparent;
+}
+
+.nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  margin: 10px;
+  background: transparent;
+
+
+}
+
+
+
+.nav a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  padding: 7px;
+  background: transparent;
+
+  border: 1px solid #eee7;
+  border-radius: 3px;
+
+
+}
+
+.nav a:hover {
+  cursor: pointer;
+  background: #aaa;
+}
+
+.nav button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  padding: 7px;
+  background: transparent;
+  border: none;
+
+  border: 1px solid #eee7;
+  border-radius: 3px;
+
+  font-size: 15px;
+
+  color: aqua;
+}
+
+.nav button:hover {
+  cursor: pointer;
+  background: #aaa;
+}
+
+.edit {
+  background: transparent;
+  font-size: 16px;
+  color: aqua;
+}
+
+.delete {
+  background: transparent;
+  font-size: 16px;
+  color: red;
+
+}
